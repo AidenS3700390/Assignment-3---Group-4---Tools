@@ -1,0 +1,144 @@
+@keyframes fade {
+  0%,100% { opacity: 0 }
+  100% { opacity: 1 }
+}
+
+@font-face {
+  src: url("FONTS/Source_Sans_Pro/SourceSansPro-Regular.ttf");
+  font-family: "Source Sans Pro";
+}
+@font-face {
+  src: url("FONTS/Source_Serif_Pro/SourceSerifPro-Bold.ttf");
+  font-family: "Source Serif Pro";
+}
+
+header{
+  padding: 30px;
+  background-color: #82b2c1;
+  text-align: center;
+  margin-left: 250px;
+  margin-right: 10px
+}
+body {
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #E3E5E0;
+    font-family: "Source Sans Pro";
+}
+
+h1{
+
+    padding-left: 20px;
+    font-family:"Source Sans Pro";
+    font-size: 45px;
+    color: #black;
+    letter-spacing: 3px;
+}/*main title*/
+h2{
+    font-family:"Rubik";
+    font-size: 30px;
+    color: black;
+}
+h3 {
+  font-family:"Rubik";
+  font-size: 20px;
+  font-weight: 400;
+}
+h4{
+  font-family:"Rubik";
+  font-size: 20px;
+  font-weight: 400;
+}
+h5{ /* for navigation text use */
+  text-align: left;
+  font-size: 15px;
+  font-family: "Arial";
+  font-weight: 100;
+}
+p{
+  font-size: 15px;
+  text-align: justify;
+  font-family: "Arial"
+}/* for text body */
+p.2{/* For referances */
+  text-decoration: italic;
+  color: red;
+
+}
+
+.image{
+  position: absolute;
+  margin-top:-150px;
+  padding-left: 450px;
+  height: 200px;
+  width: 200px;
+}
+
+.MainContent{
+  height: 100%;
+  width:80%;
+  height: auto;
+  margin-left: 250px;
+}
+
+.maintitle{
+  padding-left: 25px;
+  font-family:"Source Sans Pro";
+  font-size: 35px;
+  color: #e4dede;
+  letter-spacing: 3px;
+}
+
+.LeftSideBar{
+    width:20%;
+    height:auto;
+    float:Left;
+    position: fixed;
+    overflow-x: auto;
+}
+  .nav-bar {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 250px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #232828 ; /* Black */
+    box-shadow: 5px 5px 5px #999;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  .nav-bar a {
+    padding: 1px 5px 1px 25px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #e4dede;
+    display: block;
+    line-height: 2rem;
+    letter-spacing: 1px;
+  }
+  .nav-bar a:hover {
+    color: rgb(129, 129, 129);
+    -webkit-transition: all 0.5s ease;
+    transition: all 1s ease;
+  }
+
+
+table{
+  margin-left: 50px;
+}
+th{
+  border: 3px;
+  font-size: 15px;
+}
+td{
+  height: 50px;
+  width: 900px;
+  padding: 10px;
+  text-align: justify;
+}
+table, th, td {
+  border: 1px solid black;
+}
